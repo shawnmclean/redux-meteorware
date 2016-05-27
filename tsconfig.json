@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+		"outDir": "dist",
+		"target": "ES5",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"declaration": true
+    },
+    "files": [
+        "src/index.ts"
+    ]
+}

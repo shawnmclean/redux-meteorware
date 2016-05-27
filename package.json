@@ -4,6 +4,7 @@
   "description": "Meteor middleware for Redux",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/shawnmclean/redux-meteorware/issues"
   },
-  "homepage": "https://github.com/shawnmclean/redux-meteorware#readme"
+  "homepage": "https://github.com/shawnmclean/redux-meteorware#readme",
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "tslint": "^3.10.2",
+    "typescript": "^1.8.10"
+  }
 }
