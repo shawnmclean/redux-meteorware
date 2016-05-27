@@ -1,0 +1,26 @@
+{
+  "name": "redux-meteorware",
+  "version": "1.0.0",
+  "description": "Meteor middleware for Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnmclean/redux-meteorware.git"
+  },
+  "keywords": [
+    "redux",
+    "middleware",
+    "meteor",
+    "redux-middleware",
+    "flux"
+  ],
+  "author": "Shawn Mclean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawnmclean/redux-meteorware/issues"
+  },
+  "homepage": "https://github.com/shawnmclean/redux-meteorware#readme"
+}
