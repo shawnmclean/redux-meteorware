@@ -1,10 +1,5 @@
 language: node_js
 node_js:
-  - "4"
-  - "5"
-script:
-  - npm run build
-  - npm run test
-branches:
-  only:
-    - master
+- "0.10"
+before_install:
+- "curl -L http://git.io/ejPSng | /bin/sh"
