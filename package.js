@@ -7,14 +7,14 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.3.2.4');
+  api.versionsFrom('1.3');
+  api.use('tracker');
   api.use('ecmascript');
-  api.mainModule('redux-meteorware.js');
+  api.mainModule('client/index.js', 'client');
 });
 
 Package.onTest(function(api) {
-  api.use('ecmascript');
-  api.use('tinytest');
   api.use('shawnmclean:redux-meteorware');
-  api.mainModule('redux-meteorware-tests.js');
+  api.use(['tracker', 'ecmascript', 'practicalmeteor:chai', 'practicalmeteor:sinon', 'practicalmeteor:mocha']);
+  api.addFiles('tests/index.js', 'client');
 });

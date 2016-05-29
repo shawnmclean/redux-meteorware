@@ -1,4 +1,4 @@
-export * from './meteorCrud';
+export * from './crud/';
 export * from './meteorDatasource';
 export * from './meteorMethod';
 export * from './meteorSubscription';
