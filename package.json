@@ -4,7 +4,7 @@
   "description": "Meteor middleware for Redux",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "test": "meteor test-packages ./ --driver-package practicalmeteor:mocha"
   },
   "repository": {
     "type": "git",
