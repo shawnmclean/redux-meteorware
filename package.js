@@ -1,7 +1,7 @@
 Package.describe({
   name: 'shawnmclean:redux-meteorware',
   version: '0.0.1',
-  summary: '',
+  summary: 'Meteor middleware for Redux',
   git: 'https://github.com/shawnmclean/redux-meteorware',
   documentation: 'README.md'
 });

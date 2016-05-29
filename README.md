@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/shawnmclean/redux-meteorware.svg?branch=master)](https://travis-ci.org/shawnmclean/redux-meteorware)
+
 # Redux Meteorware
 Meteor middleware for Redux
 
@@ -10,5 +12,5 @@ Most of this code was copied from the [my-nutrition](https://github.com/djhi/my-
 # Installation
 
 ```
-npm install --save redux-meteorware
+meteor add shawnmclean:redux-meteorware
 ```
