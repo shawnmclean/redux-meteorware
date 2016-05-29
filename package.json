@@ -2,7 +2,7 @@
   "name": "redux-meteorware",
   "version": "1.0.0",
   "description": "Meteor middleware for Redux",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "meteor test-packages ./ --driver-package practicalmeteor:mocha"
   },

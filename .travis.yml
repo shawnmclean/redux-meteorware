@@ -1,8 +1,10 @@
 language: node_js
 node_js:
-- "0.10"
+  - "0.12"
 before_install:
-- curl https://install.meteor.com/ | sh
+  - "curl -L https://raw.githubusercontent.com/arunoda/travis-ci-meteor-packages/master/configure.sh | /bin/sh"
+before_script:
+  - "export PATH=$HOME/.meteor:$PATH"
 branches:
   only:
     - master
