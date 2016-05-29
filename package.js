@@ -15,6 +15,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('shawnmclean:redux-meteorware');
-  api.use(['tracker', 'ecmascript', 'practicalmeteor:chai', 'practicalmeteor:sinon', 'practicalmeteor:mocha']);
+  api.use(['tracker', 'ecmascript', 'practicalmeteor:chai', 'practicalmeteor:sinon']);
   api.addFiles('tests/index.js', 'client');
 });
