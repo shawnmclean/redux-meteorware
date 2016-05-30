@@ -1,3 +1,6 @@
 import '../client/crud/meteorInsert.spec.js'
 import '../client/crud/meteorRemove.spec.js'
 import '../client/crud/meteorUpdate.spec.js'
+import '../client/meteorDatasource.spec.js'
+import '../client/meteorMethod.spec.js'
+import '../client/meteorSubscription.spec.js'
