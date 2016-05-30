@@ -32,7 +32,8 @@ const computations = [];
  * It will dispatch a 'MY_SUBSCRIPTION_CHANGED' action when the subscription data change.
  * The action will have a 'data' property containing whatever your 'get' function returns.
  */
-export default store => next => action => {
+export function meteorSubscription(store){
+ return next => action => {
   if (!action.meteor || !action.meteor.subscribe) {
     return next(action);
   }
@@ -70,4 +71,5 @@ export default store => next => action => {
       });
     }
   });
+ }
 };
