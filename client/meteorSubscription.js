@@ -58,6 +58,7 @@ export function meteorSubscription(store){
     store.dispatch({
       type: actionTypeBuilder.ready(action.type),
       ready,
+      data
     });
 
     if (ready) {
